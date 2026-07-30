@@ -1,0 +1,10 @@
+# ─────────────────────────────────────────────────────────────
+#  requirements.txt  —  Free Deposit Bot (Render deployment)
+# ─────────────────────────────────────────────────────────────
+#
+#  PTB v21 + Python 3.14 compatible.
+#  Updater is NEVER instantiated (updater=None in builder)
+#  so the __slots__ crash cannot occur on any Python version.
+# ─────────────────────────────────────────────────────────────
+
+python-telegram-bot==21.11.1
